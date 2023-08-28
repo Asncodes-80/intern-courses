@@ -30,7 +30,7 @@ git commit -m "one line commit"
 git commit
 ```
 
-[commit](./assets/images/Items.png)
+![commit](./assets/images/Items.png)
 
 ### Command 4: `git push`
 
