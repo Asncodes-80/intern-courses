@@ -1,12 +1,20 @@
-### Command 0: `git status`
+### Command 0: `git init`
+
+`git init` is one way to start a new project with Git. To start a repository, use either `git init` or `git clone` - not both.
+
+### Command 1: `git status`
 
 You can see all your change in your machine before any add (Stage).
 
-### Command 1: `git clone`
+### command 2: `git log`
+
+The git log command displays all of the commits in a repository’s history.
+
+### Command 3: `git clone`
 
 You can clone any public repo at any server in your local machine.
 
-### Command 2: `git add .`
+### Command 4: `git add .`
 
 After change your code you can add your code to "I have some changes over my
 code, so please put them over the stage and add them as new changes!"
@@ -14,7 +22,7 @@ code, so please put them over the stage and add them as new changes!"
 __Note__: You can use `git add file_name.extension` to select one or even
 multiple files.
 
-### Command 3: `git commit`
+### Command 5: `git commit`
 
 Commit can help you to add title and content as message of your change.
 
@@ -32,18 +40,18 @@ git commit
 
 ![commit](./assets/images/Items.png)
 
-### Command 4: `git push`
+### Command 6: `git push`
 
 Send your code to your favorite server.
 
-### Command 5: `git pull`
+### Command 7: `git pull`
 
 Download all remote changes over your local machine
 
 __Note__: in some cases, you will need to do `git fetch --all`. This command
 will fetch and sync all changes from all branches in your local machine.
 
-### Command 6: `git merge`
+### Command 8: `git merge`
 
 Merge one branch to another branch. In following commands, merge master branch
 with beta.
@@ -53,28 +61,36 @@ git checkout master
 git merge beta
 ```
 
-### Command 7: `git checkout a new branch`
+### Command 9: `git checkout a new branch`
 
 ```bash
 git checkout -b new-branch-name
 ```
 
-### Command 7-1: `git checkout branch-wip`
+### Command 9-1: `git checkout branch-wip`
 
 Switch between branches.
 
-### Command 8: `git switch -c #commit_hash`
+### Command 10: `git switch -c #commit_hash`
 
 You can switch between your repo commit.
 
-### Command 9: `git push --delete origin branch-name`
+### Command 11: `git push --delete origin branch-name`
 
 You can remove a branch from your remote server.
 
-### Command 10: `git checkout -d branch-name`
+### Command 12: `git checkout -d branch-name`
 
 Remove a branch from your local machine.
 
-### Command 11: `git diff`
+### Command 13: `git diff`
 
 You can check all different between now and before.
+
+### command 14: `git reset`
+
+It allows you to undo changes, unstage files, or even discard commits. There are different options for git reset, such as --soft, --mixed, and --hard, each affecting the behavior of the reset operation.
+
+### command 15: `git blame`
+
+ It shows the author, date, and commit hash for each line, giving you insights into who made the changes and when.
